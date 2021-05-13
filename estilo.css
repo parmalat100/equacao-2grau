@@ -1,5 +1,5 @@
 body{
-background: rgb(70, 142, 236);
+background: rgb(79, 84, 90);
 font: normal 15pt Arial;
 }
 header{
@@ -7,15 +7,16 @@ header{
     text-align: center;
 }
 section{
-background: white;
+background: rgb(241, 241, 224);
 border-radius: 10px;
 padding: 15px;
-width: 500px;
+width: 720px;
+height: 500px;
 margin: auto;
 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.384);
 }
 footer{
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-style: italic;
 }
@@ -23,4 +24,24 @@ footer{
     width: 100px;
     height: 50px;
     font-size:30px ;
+}
+#texto{
+    padding: 75px 0;
+    text-align: center;
+    font-size: 22pt;
+}
+#botao{
+    text-align: center;
+    padding: 10px 0;
+}
+.resbotao{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+}
+
+.resbotao:hover{
+    background-color: rgb(135, 141, 119);
+    color: white;
 }
