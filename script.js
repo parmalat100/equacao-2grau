@@ -21,7 +21,7 @@ function calcular() {
 
 
     res.innerHTML = ``
-    res.innerHTML = `<br>O valor de X' é: ${x1}`
-    res.innerHTML += `<p>O valor de X'' é: ${x2}`
+    res.innerHTML = `<br>O valor de X' é: ${x1.toFixed(2)}`
+    res.innerHTML += `<p>O valor de X'' é: ${x2.toFixed(2)}`
 
 }
