@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equação do 2º Grau</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Resolvendo Equações do 2º Grau</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Insira abaixo os valores da equação do segundo grau de acordo com o modelo <strong>ax²+bx+c=0</strong>, 
+                lembrando que <b>a</b> deve ser diferente de 0;
+            </p>
+        </div>
+        <div>
+            <input class="caixa" type="number" name="ax" id="ax" placeholder="a"> x² +
+            <input class="caixa" type="number" name="bx" id="bx" placeholder="b"> x +
+            <input class="caixa" type="number" name="c" id="c" placeholder="c"> = 0
+            <input type="button" value="Resultado" onclick="calcular()">
+
+        </div>
+        <div id="res">
+            <p>Aqui sairá os resultados das raízes</p>
+        </div>
+    </section>
+    <footer>
+        <p>&Eduardo Bustamante</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
