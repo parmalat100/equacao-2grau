@@ -1,5 +1,3 @@
-
-
 function calcular() {
     var a = Number(window.document.getElementById('ax').value)
     var b = Number(window.document.getElementById('bx').value)
@@ -23,5 +21,4 @@ function calcular() {
     res.innerHTML = ``
     res.innerHTML = `<br>O valor de X' é: ${x1.toFixed(2)}`
     res.innerHTML += `<p>O valor de X'' é: ${x2.toFixed(2)}`
-
 }
